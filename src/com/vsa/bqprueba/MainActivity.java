@@ -42,7 +42,6 @@ public class MainActivity extends Activity{
 	DropboxAPI<AndroidAuthSession> mDBApi;
 	String appFolder="";
 	ProgressDialog pdialog=null;
-	//ListView myListView;
 	private boolean isAuthentified=false;
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
